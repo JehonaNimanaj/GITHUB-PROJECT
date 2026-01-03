@@ -23,3 +23,8 @@ void displayBoard() {
     }
     cout << "\n";
 }
+
+// Change player
+void switchPlayer() {
+    currentPlayer = (currentPlayer == 'X') ? 'O' : 'X';
+}
